@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Lightning" topic="html/help_home.html">
+	<topic href="html/buckminster.html" label="Buckminster">
+	</topic>
+	<topic href="html/p2.html" label="p2">
+	</topic>
+</toc>

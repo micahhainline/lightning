@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Lightning" id="com.asolutions.lightning.product" application="com.asolutions.lightning.application" version="1.0.0" useFeatures="true" includeLaunchers="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgsMac>-os macosx 
+-ws carbon 
+-arch x86</programArgsMac>
+   </launcherArgs>
+
+   <windowImages/>
+
+   <launcher name="Lightning">
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="com.asolutions.lightning.product.feature" version="1.0.0"/>
+   </features>
+
+
+</product>

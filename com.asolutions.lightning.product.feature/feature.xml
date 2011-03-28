@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.asolutions.lightning.product.feature"
+      label="Lightning Product Feature"
+      version="1.0.0"
+      provider-name="Asynchrony Solutions, Inc."
+      plugin="com.asolutions.lightning">
+
+   <description>
+      Conformance Tool Suite
+   </description>
+
+   <copyright>
+      See notice.html
+   </copyright>
+
+   <license url="notice.html">
+      This software uses a number of third-party libraries under a
+number of different open-source licenses. The following list is for
+reference, and all licenses can be found under the licenses folder of
+the main application.
+
+* Eclipse Public License Version 1.0 (available at http://www.eclipse.org/legal/epl-v10.html)
+* Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)
+* Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)
+* Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)
+* GNU Lesser General Public License 3.0 (available at http://www.gnu.org/licenses/lgpl.txt)
+* Common Development and Distribution License Version 1.0 (available at http://www.sun.com/cddl/cddl.html)
+
+This software contains libraries released under the Apache
+Software License
+   </license>
+
+   <includes
+         id="com.asolutions.lightning.platform.feature"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.asolutions.lightning"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.asolutions.lightning.help"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

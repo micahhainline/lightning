@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.test"
+      label="%featureName"
+      version="3.5.0.v20100427-7R7ZBiBgLiJz0Au4I4DF56450271"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/eclipse/updates/3.4"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/eclipse/updates/3.4"/>
+   </url>
+
+   <requires>
+      <import plugin="org.apache.ant"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.runtime.compatibility"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ant.optional.junit"
+         download-size="0"
+         install-size="0"
+         version="3.2.200"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.test"
+         download-size="0"
+         install-size="0"
+         version="3.3.0"/>
+
+   <plugin
+         id="org.eclipse.test.source"
+         download-size="0"
+         install-size="0"
+         version="3.3.0"/>
+
+   <plugin
+         id="org.eclipse.test.performance"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.v20100122"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.test.performance.win32"
+         download-size="0"
+         install-size="0"
+         version="3.1.100"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.junit"
+         download-size="0"
+         install-size="0"
+         version="4.8.1.v4_8_1_v20100114-1600"/>
+
+   <plugin
+         id="org.junit4"
+         download-size="0"
+         install-size="0"
+         version="4.8.1.v20100302"/>
+
+   <plugin
+         id="org.easymock"
+         download-size="0"
+         install-size="0"
+         unpack="false"
+         version="2.4.0.v20090202-0900"/>
+         
+         
+   <plugin
+         id="org.hamcrest.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v20090501071000"
+         unpack="false"/>
+
+</feature>

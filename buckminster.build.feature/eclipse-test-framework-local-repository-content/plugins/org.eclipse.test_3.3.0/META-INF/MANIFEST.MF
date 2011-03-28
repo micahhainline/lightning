@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Require-Bundle: org.apache.ant,org.junit,org.eclipse.ui,org.eclipse.co
+ re.runtime,org.eclipse.ui.ide.application,org.eclipse.equinox.app
+Bundle-Vendor: %providerName
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/ecl
+ ipse:org.eclipse.test;tag=v20100118
+Eclipse-LazyStart: true
+Bundle-ClassPath: automated.jar
+Bundle-Version: 3.3.0
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.test; singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+
+

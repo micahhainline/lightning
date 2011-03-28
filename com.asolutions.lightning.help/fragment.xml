@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<fragment>
+	<extension point="org.eclipse.help.contexts">
+		<contexts file="contexts.xml" plugin="com.asolutions.lightning">
+		</contexts>
+	</extension>
+	<extension point="org.eclipse.help.toc">
+		<toc file="toc.xml" primary="true">
+		</toc>
+	</extension>
+
+</fragment>

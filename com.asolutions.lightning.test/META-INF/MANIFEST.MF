@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test Fragment
+Bundle-SymbolicName: com.asolutions.lightning.test;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Asynchrony Solutions
+Fragment-Host: com.asolutions.lightning;bundle-version="1.0.0"
+Require-Bundle: org.apache.commons.io;bundle-version="1.3.1",
+ org.junit;bundle-version="4.8.1"
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

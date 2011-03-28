@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %providerName
+Eclipse-SourceBundle: org.eclipse.test;version="3.3.0";roots:="automat
+ edsrc"
+Bundle-Version: 3.3.0
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.test.source
+
+

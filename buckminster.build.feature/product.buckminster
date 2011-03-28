@@ -1,0 +1,4 @@
+importtargetdefinition -A "${build.feature.dir}/build-target-platform.target"
+import "${build.feature.dir}/buckminster-build.cquery"
+build --thorough
+perform ${perform.target}

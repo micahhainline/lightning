@@ -1,0 +1,239 @@
+Buildfile: C:\workspace-lightning\buckminster.build.feature\build.xml
+
+build.test.product:
+
+install-buckminster-headless:
+
+install.p2.director:
+
+install.p2.director.internal:
+
+install-buckminster-headless-internal:
+
+rebuild.local.p2.repository:
+
+install.p2.director:
+
+install.p2.director.internal:
+
+rebuild.p2.repository:
+     [echo] Rebuilding p2 repository file:/C:/workspace-lightning/buckminster.build.feature/local-repository from C:\workspace-lightning\buckminster.build.feature\local-repository-content
+     [java] Source location (C:\workspace-lightning\buckminster.build.feature\local-repository-content) must be a valid file-system path.
+
+rebuild.local.test.framework.p2.repository:
+
+install.p2.director:
+
+install.p2.director.internal:
+
+rebuild.p2.repository:
+   [delete] Deleting directory C:\workspace-lightning\buckminster.build.feature\eclipse-test-framework-local-repository
+     [echo] Rebuilding p2 repository file:/C:/workspace-lightning/buckminster.build.feature/eclipse-test-framework-local-repository/ from C:\workspace-lightning\buckminster.build.feature\eclipse-test-framework-local-repository-content
+     [java] Generating metadata for ..
+     [java] Generation completed with success [0 seconds].
+
+rebuild.local.p2.repositories:
+
+init.platform:
+     [echo] Platform is win32, win32, x86
+
+build.target.product:
+     [java] INFO:  importtargetdefinition '-A' 'C:\workspace-lightning\buckminster.build.feature/build-target-platform.target'
+     [java] Could not find matching bundle for Require-Bundle: org.eclipse.ui.workbench; bundle-version="[3.5.0,4.0.0)"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.ant; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.directorywalker; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.junit; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.model; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.model.util; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.parser; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.parser.impl; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.parser.structs; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.tools; version="1.6.3"
+     [java] INFO:  import 'C:\workspace-lightning\buckminster.build.feature/buckminster-build.cquery'
+     [java] INFO:  Resetting target platform build-target-platform
+     [java] INFO:  Import complete.
+     [java] INFO:  build '--thorough'
+     [java] INFO:  Resetting target platform build-target-platform
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.ant; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.directorywalker; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.junit; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.model; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.model.util; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.parser; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.parser.impl; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.parser.structs; version="1.6.3"
+     [java] Could not find matching export for Import-Package: com.thoughtworks.qdox.tools; version="1.6.3"
+     [java] INFO:  perform 'buckminster.build.feature#create.product.test'
+     [java] INFO:  [start org.eclipse.swt:osgi.bundle$3.6.0.v3647a#target.fragments]
+     [java] INFO:  [end org.eclipse.swt:osgi.bundle$3.6.0.v3647a#target.fragments]
+     [java] INFO:  [start org.eclipse.equinox.launcher:osgi.bundle$1.1.0.v20100507#target.fragments]
+     [java] INFO:  [start org.eclipse.equinox.launcher.win32.win32.x86:osgi.bundle$1.1.0.v20100503#bundle.jar]
+     [java] INFO:  [end org.eclipse.equinox.launcher.win32.win32.x86:osgi.bundle$1.1.0.v20100503#bundle.jar]
+     [java] INFO:  [end org.eclipse.equinox.launcher:osgi.bundle$1.1.0.v20100507#target.fragments]
+     [java] INFO:  [start javax.xml.rpc:osgi.bundle$1.1.0.v201005080400#bundle.jar]
+     [java] INFO:  [end javax.xml.rpc:osgi.bundle$1.1.0.v201005080400#bundle.jar]
+     [java] INFO:  [start org.apache.ant:osgi.bundle$1.7.1.v20090120-1145#target.fragments]
+     [java] INFO:  [end org.apache.ant:osgi.bundle$1.7.1.v20090120-1145#target.fragments]
+     [java] INFO:  [start org.apache.ant:osgi.bundle$1.7.1.v20090120-1145#bundle.jar]
+     [java] INFO:  [end org.apache.ant:osgi.bundle$1.7.1.v20090120-1145#bundle.jar]
+     [java] INFO:  [start org.eclipse.core.filesystem:osgi.bundle$1.3.0.v20100505#target.fragments]
+     [java] INFO:  [end org.eclipse.core.filesystem:osgi.bundle$1.3.0.v20100505#target.fragments]
+     [java] INFO:  [start com.asolutions.lightning:osgi.bundle$1.0.0#eclipse.build]
+     [java] INFO:  [end com.asolutions.lightning:osgi.bundle$1.0.0#eclipse.build]
+     [java] INFO:  [start com.asolutions.lightning:osgi.bundle$1.0.0#target.fragments]
+     [java] INFO:  [start com.asolutions.lightning.test:osgi.bundle$1.0.0#eclipse.build]
+     [java] INFO:  [end com.asolutions.lightning.test:osgi.bundle$1.0.0#eclipse.build]
+     [java] INFO:  [start com.asolutions.lightning.test:osgi.bundle$1.0.0#bundle.jar]
+     [java] INFO:  [end com.asolutions.lightning.test:osgi.bundle$1.0.0#bundle.jar]
+     [java] INFO:  [start com.asolutions.lightning.help:osgi.bundle$1.0.0#bundle.jar]
+     [java] INFO:  [end com.asolutions.lightning.help:osgi.bundle$1.0.0#bundle.jar]
+     [java] INFO:  [end com.asolutions.lightning:osgi.bundle$1.0.0#target.fragments]
+     [java] INFO:  [start com.asolutions.lightning:osgi.bundle$1.0.0#bundle.jar]
+     [java] INFO:  [end com.asolutions.lightning:osgi.bundle$1.0.0#bundle.jar]
+     [java] INFO:  [start org.eclipse.rcp:eclipse.feature$3.6.0.v20100427-9KAjFKvFs-Uz-4QX1m0EdXVS#manifest]
+     [java] INFO:  [end org.eclipse.rcp:eclipse.feature$3.6.0.v20100427-9KAjFKvFs-Uz-4QX1m0EdXVS#manifest]
+     [java] INFO:  [start org.eclipse.rcp:eclipse.feature$3.6.0.v20100427-9KAjFKvFs-Uz-4QX1m0EdXVS#feature.jar]
+     [java] INFO:  [end org.eclipse.rcp:eclipse.feature$3.6.0.v20100427-9KAjFKvFs-Uz-4QX1m0EdXVS#feature.jar]
+     [java] INFO:  [start org.eclipse.equinox.executable:eclipse.feature$3.4.0.v20100507-7M7K-FIhIez-egBko15H73#manifest]
+     [java] INFO:  [end org.eclipse.equinox.executable:eclipse.feature$3.4.0.v20100507-7M7K-FIhIez-egBko15H73#manifest]
+     [java] INFO:  [start org.eclipse.equinox.executable:eclipse.feature$3.4.0.v20100507-7M7K-FIhIez-egBko15H73#feature.jar]
+     [java] INFO:  [end org.eclipse.equinox.executable:eclipse.feature$3.4.0.v20100507-7M7K-FIhIez-egBko15H73#feature.jar]
+     [java] INFO:  [start org.eclipse.help:eclipse.feature$1.2.0.v20100427-7e7jEKFEx2Xk1ZhrDQppr3#manifest]
+     [java] INFO:  [end org.eclipse.help:eclipse.feature$1.2.0.v20100427-7e7jEKFEx2Xk1ZhrDQppr3#manifest]
+     [java] INFO:  [start org.eclipse.help:eclipse.feature$1.2.0.v20100427-7e7jEKFEx2Xk1ZhrDQppr3#feature.jar]
+     [java] INFO:  [end org.eclipse.help:eclipse.feature$1.2.0.v20100427-7e7jEKFEx2Xk1ZhrDQppr3#feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.platform.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [end com.asolutions.lightning.platform.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [start com.asolutions.lightning.platform.feature:eclipse.feature$1.0.0#feature.jar]
+     [java] INFO:  [end com.asolutions.lightning.platform.feature:eclipse.feature$1.0.0#feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.product.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [end com.asolutions.lightning.product.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [start com.asolutions.lightning.product.feature:eclipse.feature$1.0.0#feature.jar]
+     [java] INFO:  [end com.asolutions.lightning.product.feature:eclipse.feature$1.0.0#feature.jar]
+     [java] INFO:  [start org.eclipse.swtbot.eclipse.junit4.headless:osgi.bundle$2.0.0.568-dev-e36#bundle.jar]
+     [java] INFO:  [end org.eclipse.swtbot.eclipse.junit4.headless:osgi.bundle$2.0.0.568-dev-e36#bundle.jar]
+     [java] INFO:  [start org.eclipse.test:osgi.bundle$3.3.0#bundle.jar]
+     [java] INFO:  [end org.eclipse.test:osgi.bundle$3.3.0#bundle.jar]
+     [java] INFO:  [start org.junit:osgi.bundle$4.8.1.v4_8_1_v20100114-1600#bundle.jar]
+     [java] INFO:  [end org.junit:osgi.bundle$4.8.1.v4_8_1_v20100114-1600#bundle.jar]
+     [java] INFO:  [start org.junit4:osgi.bundle$4.8.1.v20100302#bundle.jar]
+     [java] INFO:  [end org.junit4:osgi.bundle$4.8.1.v20100302#bundle.jar]
+     [java] INFO:  [start com.asolutions.lightning.swtbot.test:osgi.bundle$1.0.0#eclipse.build]
+     [java] INFO:  [end com.asolutions.lightning.swtbot.test:osgi.bundle$1.0.0#eclipse.build]
+     [java] INFO:  [start com.asolutions.lightning.swtbot.test:osgi.bundle$1.0.0#bundle.jar]
+     [java] INFO:  [end com.asolutions.lightning.swtbot.test:osgi.bundle$1.0.0#bundle.jar]
+     [java] INFO:  [start org.eclipse.swtbot.eclipse.test.junit4:eclipse.feature$2.0.0.568-dev-e36#manifest]
+     [java] INFO:  [end org.eclipse.swtbot.eclipse.test.junit4:eclipse.feature$2.0.0.568-dev-e36#manifest]
+     [java] INFO:  [start org.eclipse.swtbot.eclipse.test.junit4:eclipse.feature$2.0.0.568-dev-e36#feature.jar]
+     [java] INFO:  [end org.eclipse.swtbot.eclipse.test.junit4:eclipse.feature$2.0.0.568-dev-e36#feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.platform.test.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [end com.asolutions.lightning.platform.test.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [start com.asolutions.lightning.platform.test.feature:eclipse.feature$1.0.0#feature.jar]
+     [java] INFO:  [end com.asolutions.lightning.platform.test.feature:eclipse.feature$1.0.0#feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.test.product.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [end com.asolutions.lightning.test.product.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [start com.asolutions.lightning.test.product.feature:eclipse.feature$1.0.0#feature.jar]
+     [java] INFO:  [end com.asolutions.lightning.test.product.feature:eclipse.feature$1.0.0#feature.jar]
+     [java] INFO:  [start com.asolutions.lightning:osgi.bundle$1.0.0#source.manifest]
+     [java] INFO:  [end com.asolutions.lightning:osgi.bundle$1.0.0#source.manifest]
+     [java] INFO:  [start com.asolutions.lightning:osgi.bundle$1.0.0#source.bundle.jar]
+     [java] INFO:  [end com.asolutions.lightning:osgi.bundle$1.0.0#source.bundle.jar]
+     [java] INFO:  [start org.eclipse.rcp:eclipse.feature$3.6.0.v20100427-9KAjFKvFs-Uz-4QX1m0EdXVS#source.manifest.with.localization]
+     [java] INFO:  [end org.eclipse.rcp:eclipse.feature$3.6.0.v20100427-9KAjFKvFs-Uz-4QX1m0EdXVS#source.manifest.with.localization]
+     [java] INFO:  [start org.eclipse.rcp:eclipse.feature$3.6.0.v20100427-9KAjFKvFs-Uz-4QX1m0EdXVS#source.feature.jar]
+     [java] INFO:  [end org.eclipse.rcp:eclipse.feature$3.6.0.v20100427-9KAjFKvFs-Uz-4QX1m0EdXVS#source.feature.jar]
+     [java] INFO:  [start org.eclipse.equinox.executable:eclipse.feature$3.4.0.v20100507-7M7K-FIhIez-egBko15H73#source.manifest.with.localization]
+     [java] INFO:  [end org.eclipse.equinox.executable:eclipse.feature$3.4.0.v20100507-7M7K-FIhIez-egBko15H73#source.manifest.with.localization]
+     [java] INFO:  [start org.eclipse.equinox.executable:eclipse.feature$3.4.0.v20100507-7M7K-FIhIez-egBko15H73#source.feature.jar]
+     [java] INFO:  [end org.eclipse.equinox.executable:eclipse.feature$3.4.0.v20100507-7M7K-FIhIez-egBko15H73#source.feature.jar]
+     [java] INFO:  [start org.eclipse.help:eclipse.feature$1.2.0.v20100427-7e7jEKFEx2Xk1ZhrDQppr3#source.manifest.with.localization]
+     [java] INFO:  [end org.eclipse.help:eclipse.feature$1.2.0.v20100427-7e7jEKFEx2Xk1ZhrDQppr3#source.manifest.with.localization]
+     [java] INFO:  [start org.eclipse.help:eclipse.feature$1.2.0.v20100427-7e7jEKFEx2Xk1ZhrDQppr3#source.feature.jar]
+     [java] INFO:  [end org.eclipse.help:eclipse.feature$1.2.0.v20100427-7e7jEKFEx2Xk1ZhrDQppr3#source.feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.platform.feature:eclipse.feature$1.0.0#source.manifest]
+     [java] INFO:  [end com.asolutions.lightning.platform.feature:eclipse.feature$1.0.0#source.manifest]
+     [java] INFO:  [start com.asolutions.lightning.platform.feature:eclipse.feature$1.0.0#source.feature.jar]
+     [java] INFO:  [end com.asolutions.lightning.platform.feature:eclipse.feature$1.0.0#source.feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.product.feature:eclipse.feature$1.0.0#source.manifest]
+     [java] INFO:  [end com.asolutions.lightning.product.feature:eclipse.feature$1.0.0#source.manifest]
+     [java] INFO:  [start com.asolutions.lightning.product.feature:eclipse.feature$1.0.0#source.feature.jar]
+     [java] INFO:  [end com.asolutions.lightning.product.feature:eclipse.feature$1.0.0#source.feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.test:osgi.bundle$1.0.0#source.manifest]
+     [java] INFO:  [end com.asolutions.lightning.test:osgi.bundle$1.0.0#source.manifest]
+     [java] INFO:  [start com.asolutions.lightning.test:osgi.bundle$1.0.0#source.bundle.jar]
+     [java] INFO:  [end com.asolutions.lightning.test:osgi.bundle$1.0.0#source.bundle.jar]
+     [java] INFO:  [start com.asolutions.lightning.swtbot.test:osgi.bundle$1.0.0#source.manifest]
+     [java] INFO:  [end com.asolutions.lightning.swtbot.test:osgi.bundle$1.0.0#source.manifest]
+     [java] INFO:  [start com.asolutions.lightning.swtbot.test:osgi.bundle$1.0.0#source.bundle.jar]
+     [java] INFO:  [end com.asolutions.lightning.swtbot.test:osgi.bundle$1.0.0#source.bundle.jar]
+     [java] INFO:  [start org.eclipse.swtbot.eclipse.test.junit4:eclipse.feature$2.0.0.568-dev-e36#source.manifest]
+     [java] INFO:  [end org.eclipse.swtbot.eclipse.test.junit4:eclipse.feature$2.0.0.568-dev-e36#source.manifest]
+     [java] INFO:  [start org.eclipse.swtbot.eclipse.test.junit4:eclipse.feature$2.0.0.568-dev-e36#source.feature.jar]
+     [java] INFO:  [end org.eclipse.swtbot.eclipse.test.junit4:eclipse.feature$2.0.0.568-dev-e36#source.feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.platform.test.feature:eclipse.feature$1.0.0#source.manifest]
+     [java] INFO:  [end com.asolutions.lightning.platform.test.feature:eclipse.feature$1.0.0#source.manifest]
+     [java] INFO:  [start com.asolutions.lightning.platform.test.feature:eclipse.feature$1.0.0#source.feature.jar]
+     [java] INFO:  [end com.asolutions.lightning.platform.test.feature:eclipse.feature$1.0.0#source.feature.jar]
+     [java] INFO:  [start com.asolutions.lightning.test.product.feature:eclipse.feature$1.0.0#source.manifest]
+     [java] INFO:  [end com.asolutions.lightning.test.product.feature:eclipse.feature$1.0.0#source.manifest]
+     [java] INFO:  [start com.asolutions.lightning.test.product.feature:eclipse.feature$1.0.0#source.feature.jar]
+     [java] INFO:  [end com.asolutions.lightning.test.product.feature:eclipse.feature$1.0.0#source.feature.jar]
+     [java] INFO:  [start buckminster.build.feature:eclipse.feature$1.0.0#copy.subfeatures]
+     [java] INFO:  [end buckminster.build.feature:eclipse.feature$1.0.0#copy.subfeatures]
+     [java] INFO:  [start buckminster.build.feature:eclipse.feature$1.0.0#copy.plugins]
+     [java] INFO:  [end buckminster.build.feature:eclipse.feature$1.0.0#copy.plugins]
+     [java] INFO:  [start buckminster.build.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [end buckminster.build.feature:eclipse.feature$1.0.0#manifest]
+     [java] INFO:  [start buckminster.build.feature:eclipse.feature$1.0.0#site.p2]
+     [java] INFO:  [end buckminster.build.feature:eclipse.feature$1.0.0#site.p2]
+     [java] INFO:  [start buckminster.build.feature:eclipse.feature$1.0.0#create.product.test]
+     [java] [ant] C:\workspace-lightning\build\buckminster-headless\plugins\org.eclipse.equinox.launcher_1.1.0.v20100507.jar
+     [java] [ant] file:/C:/workspace-lightning/build/buckminster-out/buckminster.build.feature_1.0.0-eclipse.feature/site.p2/
+     [java] [ant] C:\workspace-lightning\build\test-product
+     [java] INFO:  [end buckminster.build.feature:eclipse.feature$1.0.0#create.product.test]
+
+init.platform:
+     [echo] Platform is win32, win32, x86
+
+test-init:
+    [mkdir] Created dir: C:\workspace-lightning\build\test-results
+    [mkdir] Created dir: C:\workspace-lightning\build\raw-test-results
+
+test:
+   [delete] Deleting directory C:\workspace-lightning\build\test-results
+   [delete] Deleting directory C:\workspace-lightning\build\raw-test-results
+
+init.platform:
+     [echo] Platform is win32, win32, x86
+
+test-init:
+    [mkdir] Created dir: C:\workspace-lightning\build\test-results
+    [mkdir] Created dir: C:\workspace-lightning\build\raw-test-results
+
+core-test:
+
+java-test:
+     [echo] Running com.asolutions.lightning.test. Result file: C:\workspace-lightning\build/test-results/com.asolutions.lightning.test.xml.
+
+collect-results:
+     [xslt] Transforming into C:\workspace-lightning\build\test-results
+
+init.platform:
+     [echo] Platform is win32, win32, x86
+
+test-init:
+
+swtbot-test:
+
+java-test:
+     [echo] Running com.asolutions.lightning.swtbot.test. Result file: C:\workspace-lightning\build/test-results/com.asolutions.lightning.swtbot.test.xml.
+     [java] log4j:WARN No appenders could be found for logger (org.eclipse.swtbot.swt.finder.matchers.AbstractMatcher).
+     [java] log4j:WARN Please initialize the log4j system properly.
+
+collect-results:
+     [xslt] Transforming into C:\workspace-lightning\build\test-results
+
+BUILD SUCCESSFUL
+Total time: 4 minutes 1 second
