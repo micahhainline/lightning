@@ -4,7 +4,7 @@
 	<rm:searchPath name="helios">
 		<rm:provider componentTypes="osgi.bundle,eclipse.feature"
 			readerType="p2" source="false" mutable="false">
-			<rm:uri format="http://download.eclipse.org/releases/helios" />
+			<rm:uri format="http://download.eclipse.org/eclipse/updates/3.6" />
 		</rm:provider>
 	</rm:searchPath>
 	<rm:searchPath name="swtbot">
